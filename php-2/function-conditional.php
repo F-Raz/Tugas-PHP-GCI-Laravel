@@ -83,13 +83,13 @@
     // Code function di sini 
     function tentukan_nilai($nilai){
         if($nilai >= 85){
-            echo "sangat baik";
+            echo "sangat baik<br>";
         }else if($nilai >= 70){
-            echo "baik";
+            echo "baik<br>";
         }else if($nilai >= 60){
-            echo "cukup";
+            echo "cukup<br>";
         }else{
-            echo "kurang";
+            echo "kurang<br>";
         }
     }
     
